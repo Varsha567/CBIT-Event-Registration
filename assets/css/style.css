@@ -1,3 +1,36 @@
 nav{
-    background-color: aliceblue;
+    background-color: rgb(29, 70, 106);
+    
 }
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.navbar-nav .nav-link:hover {
+    color: #5A189A !important; /* Change to your desired hover color */
+    background-color: rgba(255, 255, 255, 0.1);  /* Change to your desired hover color */
+}
+.navbar-nav .nav-link.active {
+    color: #5A189A !important; /* Change to your desired active color */
+    border-bottom: 2px solid #5A189A; /* Add underline effect */
+}
+/* Add hover effect to logo */
+.logo-hover:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+/* Smooth transitions for navbar links */
+.navbar-nav .nav-link {
+    font-size: 18px; /* Increase font size */
+    padding: 15px 20px; /* Increase padding (top/bottom, left/right) */
+    height: 60px; /* Set a fixed height for the tabs */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    transition: color 0.3s ease; 
+ }
+/* Enhance active link styling */
+.navbar-nav .nav-link.active {
+    color: #5A189A !important; /* Change to your desired active color */
+    border-bottom: 2px solid #5A189A; /* Add underline effect */
+}
+   
