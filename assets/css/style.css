@@ -33,4 +33,29 @@ nav{
     color: #5A189A !important; /* Change to your desired active color */
     border-bottom: 2px solid #5A189A; /* Add underline effect */
 }
-   
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.05) ; /* Slight zoom and tilt effect */
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+}
+
+.card-body {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.card-body:hover {
+    background-color: #f8f9fa; /* Light background on hover */
+}
+
+.btn {
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darken button color on hover */
+    transform: translateY(-3px); /* Slight button lift effect */
+}
+
