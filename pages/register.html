@@ -111,9 +111,44 @@
                         <label for="name">Your Name:</label>
                         <input type="text" id="name" name="name" class="form-control" required><br>
 
+                        <label for="pin">Roll Number:</label>
+                        <input type="number" id="pin" name="pin" class="form-control" required><br>
+
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" class="form-control" required><br>
+                        
+                        <label for="email">Branch:</label>
+                        <select class="form-select form-select-lg mb-3">
+                            <option selected>select your Branch</option>
+                            <option value="1">CSE</option>
+                            <option value="2">INF</option>
+                            <option value="3">EEE</option>
+                            <option value="1">ECE</option>
+                            <option value="2">CSM</option>
+                            <option value="3">AIML</option>
+                          </select>
 
+                        <label for="year">Year:</label><br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                            <label class="form-check-label" for="exampleRadios1">
+                                1st year 
+                            </label><br>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                2nd year 
+                            </label><br>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label" for="exampleRadios3">
+                                3rd year 
+                            </label><br>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                            <label class="form-check-label" for="exampleRadios4">
+                                4th year 
+                            </label><br>
+                        </div>
+                         
+                        
                         <button type="submit" class="btn btn-success btn-block">Submit</button>
                         <button type="button" class="btn btn-secondary btn-block" onclick="showEvents()">Back to Events</button>
                     </form>

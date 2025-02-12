@@ -7,39 +7,36 @@ nav{
     width: 50px;
 }
 .navbar-nav .nav-link:hover {
-    color: #5A189A !important; /* Change to your desired hover color */
-    background-color: rgba(255, 255, 255, 0.1);  /* Change to your desired hover color */
+    color: #5A189A !important; 
+    background-color: rgba(255, 255, 255, 0.1);  
 }
 .navbar-nav .nav-link.active {
-    color: #5A189A !important; /* Change to your desired active color */
-    border-bottom: 2px solid #5A189A; /* Add underline effect */
+    color: #5A189A !important; 
+    border-bottom: 2px solid #5A189A; 
 }
 /* Add hover effect to logo */
 .logo-hover:hover {
     opacity: 0.8;
     transition: opacity 0.3s ease;
 }
-/* Smooth transitions for navbar links */
+
 .navbar-nav .nav-link {
-    font-size: 18px; /* Increase font size */
-    padding: 15px 20px; /* Increase padding (top/bottom, left/right) */
-    height: 60px; /* Set a fixed height for the tabs */
+    font-size: 18px; 
+    padding: 15px 20px; 
+    height: 60px; 
     display: flex;
-    align-items: center; /* Vertically center the text */
+    align-items: center; 
     transition: color 0.3s ease; 
  }
-/* Enhance active link styling */
-.navbar-nav .nav-link.active {
-    color: #5A189A !important; /* Change to your desired active color */
-    border-bottom: 2px solid #5A189A; /* Add underline effect */
-}
+
+
 .card {
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 .card:hover {
-    transform: scale(1.05) ; /* Slight zoom and tilt effect */
-    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+    transform: scale(1.05) ; 
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2); 
 }
 
 .card-body {
@@ -47,7 +44,7 @@ nav{
 }
 
 .card-body:hover {
-    background-color: #f8f9fa; /* Light background on hover */
+    background-color: #f8f9fa;
 }
 
 .btn {
@@ -55,7 +52,7 @@ nav{
 }
 
 .btn:hover {
-    background-color: #0056b3; /* Darken button color on hover */
-    transform: translateY(-3px); /* Slight button lift effect */
+    background-color: #0056b3; 
+    transform: translateY(-3px); 
 }
 
